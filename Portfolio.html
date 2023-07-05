@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Adam Mapes Portfolio</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+<style>
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;  
+}
+
+
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("BlockLandscape.PNG");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+h1{
+text-align: center;
+}
+
+.center {
+display:block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+</style>
+<script src=""></script>
+<body>
+
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 text-align: center;>I am Adam Mapes</h1>
+    <p>Game Developer</p>
+  </div>
+</div>
+
+<div class="hero-para">
+	<h1 class="center">About Me</h1>
+	<p> I am a BSc Game development graduate from Norwich University of the Arts with an interest in procedural generation and voxel based games. I am proficient in many programming languages with my main 3 being C++, Java and Python,
+ I also know some webbased languages like html, css and javaScript making a few web based games using these. Some extra languages I have used, but are not at the same level as the others, are Lua and Perl. I am also good at maths 
+ and physics taking them at A-levels and finishing with B's so I have a decent understanding of mechanics and 3D maths. I'm a fast learner, my best example is learning Perl in 2 weeks during a work experience placement going from not even having heard of it to
+ creating a DNA to RNA translator and sequencer using large files.
+ </p>
+ 
+ <p>
+More personally about me, I am a massive nerd loving all forms of games having an ever growing cabinet of board games, DMing weekly D&D games and spending most of my time playing all sorts of video games. My favourite types of games 
+are rogueLikes such as binding of isaac , risk of rain and more recently crab champions. My guilty pleasure however are job simulators like house flipper, powerwash sim and gas station sim.
+</p> 
+</div>
+
+<div class=" My work">
+	<h1 class="center"> My Work</h1>
+	<p> I have participated in a few game jams during my time at University most of which I was the only developer. For the global game Jam 2023 I worked with my group to create an exploration based 3D tower defence game called<a href=" https://globalgamejam.org/2023/games/4-door-plant-war-0"> 4 Door plant war </a> 
+	where the player explores different worlds themed off of the seasons to find different plant seeds to grow in the main garden to defend against enemies that are trying to reach the main portal. A link to the executable, github and a gameplay video can be found on the games global game jam website.
+	</p>
+	<img src="4DoorPlantWar.png" alt="4DoorPlantWar" style="width:20%" class="center">
+	<p>
+	Another game jam I particapated in was one for a cancer charity called The Big C, we were tasked with creating a game that can be used by younger children to learn more about the treatment for cancer and its affects. For this our group came up with the idea to create a tower defence Game called <a href="https://squashyzebra.itch.io/cancer-crushers"> Cancer Crushers </a> 
+	where the towers are different treatments that destroy the enemy cancer cells. The game was split up by small informative sections where a cartoon doctor explained what the treatments were and how they affected the body and explained what cancer is and does.
+	</p>
+	<p>
+	For year 2 at University I worked with a group to create a game off of the theme " a coversation to change the world". We eneded up making an insult simulator called <a href=" https://github.com/JamesFry13/Keybash-Game/releases/tag/Group15"> KeyBash </a>  where the player can either insult or compliment the enemies to defeat them.
+	The enemies will react differently depending on the actions the players takes. If the player compliments the enemies then they will be more likly to compliment the player back, healing them. However if the player decides to insult more often then the enemies will instead be more likly to 
+	insult back damaging the player. The game is split up between the over world where the player is trying to reach the top of the platforms to reach the boss, and the battle scene where the player is given a hand of words availiable to them to use against the enemy.The enemy responds to the player with their own selection of words
+	that will either hurt or damage the player. The player cant spam words as they have an energy bar that if it goes over the top will cause the player to deal less damage with their words. Whilst making this game my main 
+	thoughts were to make sure that the player wasnt forced into saying specific things which is why the player has to type in what they want to say instead of picking preset sentences or phrases.
+	</p>
+<iframe src="https://nua-my.sharepoint.com/personal/jack_ibbotson_student_nua_ac_uk/_layouts/15/embed.aspx?UniqueId=0cc050fe-1bc2-45cf-ad65-058223cd84e1&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="Playthrough_NumbER15.mp4" class="center"></iframe>
+	<p>
+	For my year 3 project I worked by myself to create a procedurally generated voxel based game called <a href="https://squashyzebra.itch.io/blockworld"> BlockWorld </a> heavily inspired by minecraft and similar titles. To make this game I learnt about 
+	noise and more specifically Perlin noise and implimented my findings to create caves systems, hills, rivers and biomes. The world is in theory infinite and will be different based on what seed is given to randomize the permutation tables for the terrain, caves and other aspects.
+	The player can interact with the world by breaking and placing blocks to create different structures. To oppose the player however, there are goblins that spawn in and will attack the player. They will chase the player and break blocks in order to reach them.
+	Whilst making this game performance was a main focus of my time as spawning in around 50,000 blocks at once as the player explores the world can take some time if not well optimsed. I manged to get the time for a chunk to load down to around 4x faster than it was and with 
+	LOD added I managed to get it too a reasonable performance but it definetly could be better with some more time put into it.
+	<iframe src="2023-05-15 15-41-51.mp4" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="Playthrough_NumbER15.mp4" class="center"></iframe>
+	</p>
+</div>
+
+
+</body>
+</html>
